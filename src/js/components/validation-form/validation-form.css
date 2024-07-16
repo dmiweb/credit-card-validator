@@ -1,0 +1,121 @@
+.payment-system-images {
+  display: flex;
+  gap: 3px;
+  margin-top: 15px;
+}
+
+.imgage-container {
+  width: 48px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  background-size: cover;
+  background-position: center;
+}
+
+.mir {
+  background-image: url("./mir.svg");
+}
+
+.visa {
+  background-image: url("./visa.svg");
+}
+
+.mastercard {
+  background-image: url("./mastercard.svg");
+}
+
+.amex {
+  background-image: url("./amex.svg");
+}
+
+.discover {
+  background-image: url("./discover.svg");
+}
+
+.jsb {
+  background-image: url("./jcb.svg");
+}
+
+.diners {
+  background-image: url("./diners.svg");
+}
+
+.disable {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: 0s 0.3s;
+}
+
+.control {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.card-input {
+  width: 252px;
+  height: 40px;
+  padding-left: 5px;
+  border: 1px solid #555555;
+  border-radius: 3px;
+  font-size: 18px;
+  color: #555555;
+}
+
+.card-input:focus {
+  border-color: dodgerblue;
+  box-shadow: 0 0 3px dodgerblue;
+  outline-width: 0;
+}
+
+.card-input-valid {
+  background-image: url("./done.svg");
+  background-position: right 5px center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-color: rgba(127, 255, 0, 0.2);
+}
+
+.card-input-invalid {
+  background-image: url("./crosslinear.svg");
+  background-position: right 5px center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+.submit-btn {
+  width: 100px;
+  height: 44px;
+  background-color: #5ecc5e;
+  border: 1px solid #398439;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #449e44;
+  border-color: #255625;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.message-valid {
+  margin-left: 25px;
+  font-size: 17px;
+  color: green;
+}
+
+.message-invalid {
+  margin-left: 40px;
+  font-size: 17px;
+  color: red;
+}
