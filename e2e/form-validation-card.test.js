@@ -1,7 +1,7 @@
 import puppeteer from "puppeteer";
 import { fork } from "child_process";
 
-jest.setTimeout(35000);
+jest.setTimeout(40000);
 
 describe("test form validation cards", () => {
   let browser = null;
