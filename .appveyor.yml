@@ -15,7 +15,7 @@ install:
 build: off  # отключаем встроенную в appveyor систему сборки
 
 build_script:
-  - npm run build   # команда сборки
+  - npm run build && npm test    # команда сборки
 
 test_script:
   - npm run lint  # скрипт тестирования
