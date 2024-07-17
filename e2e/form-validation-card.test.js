@@ -21,7 +21,7 @@ describe("test form validation cards", () => {
     });
 
     browser = await puppeteer.launch({
-      headless: true,
+      headless: false,
       slowMo: 100,
       devtools: true,
     });
